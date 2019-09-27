@@ -69,7 +69,7 @@ func main() {
 	end := fmt.Sprintf("%d",time.Since(start))
 
 
-	f, err := os.OpenFile("times-file.txt", os.O_APPEND|os.O_WRONLY, 0600)
+	f, err := os.OpenFile("../times-file.txt", os.O_APPEND|os.O_WRONLY, 0600)
 	if err != nil {
 		panic(err)
 	}

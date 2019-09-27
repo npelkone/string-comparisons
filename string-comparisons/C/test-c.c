@@ -55,7 +55,7 @@ int main () {
 
     clock_t end = clock();
 
-    f = fopen("times-file.txt","a");
+    f = fopen("../times-file.txt","a");
     fprintf(f, "%lf\n", (double)(end-start)/CLOCKS_PER_SEC);
     fclose(f);
 

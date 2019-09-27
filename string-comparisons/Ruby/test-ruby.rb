@@ -55,7 +55,7 @@ string = File.read("../string-100m.txt")
 # finish = Time.now
 
 
-# open("times-file.txt", "a") { |f|
+# open("../times-file.txt", "a") { |f|
 #     f.puts((finish-start)*1000)
 # }
 

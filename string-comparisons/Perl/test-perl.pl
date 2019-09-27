@@ -53,7 +53,7 @@ if (open my $fh, '+<', $file) {
 my $end = time();
 my $duration = $end-$start;
 
-my $savefile = 'times-file.txt';
+my $savefile = '../times-file.txt';
 open(my $f, '>>', $savefile);
 print $f($duration*1000,"\n");
 close $f;

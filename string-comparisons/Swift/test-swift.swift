@@ -3,7 +3,7 @@ import Glibc
 import Dispatch
 
 
-let times_file = URL(fileURLWithPath: "./times-file.txt")
+let times_file = URL(fileURLWithPath: "../times-file.txt")
 let text_file = "../string-10k.txt"
 var s = try! String(contentsOf: URL(fileURLWithPath: text_file))
 

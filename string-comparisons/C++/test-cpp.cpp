@@ -65,7 +65,7 @@ int main () {
     auto end = std::chrono::high_resolution_clock::now();
 
     std::ofstream savefile;
-    savefile.open("times-file.txt",std::ios_base::app);
+    savefile.open("../times-file.txt",std::ios_base::app);
     savefile << std::chrono::duration_cast<std::chrono::nanoseconds>(end-start).count();
     savefile << "\n";
     savefile.close();

@@ -56,6 +56,6 @@ string_file.close()
 
 # end = time.time()
 
-# f = open("times-file.txt", "a+")
+# f = open("../times-file.txt", "a+")
 # f.write(str((end-start)*1000))
 # f.write("\n")
